@@ -1,3 +1,4 @@
+//to print fizz buzz and fizzbuzzz
 s=3
 a=5
 for(i=1;i<=100;i++){
@@ -19,3 +20,21 @@ for(i=1;i<=100;i++){
     else
     console.log(i)
 }
+
+
+//to find palindrome in a sentence
+let s ="madam speaks malayalam "
+let a=""
+let b=""
+for(i of s){
+    if(i !=" "){
+      b= b + i
+      a = i + a
+    }
+  else{
+    if(a==b) console.log(a)
+    a=""
+    b=""
+  }
+}
+        
