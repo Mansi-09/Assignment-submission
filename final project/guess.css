@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: segoe UI;
+}
+
+body{
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/10/monument-valley-game-gif-6.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    margin-left: 10%;
+}
+
+
+.padd{
+    padding: 20px;
+}
+
+.header{
+    height: 50px;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cards{
+    width: 100%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.opened{
+    display: none;
+}
+
+
+
+
+
+.card{
+    height: 200px;
+    width: 18%;
+    background-color: red;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.overlay{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://media4.giphy.com/media/QtqPV7cvgrL3qigUPb/200w.gif?cid=82a1493bkcowxxmuqxaik3nos5yjz50xx76qce1dmpigpfr1&rid=200w.gif&ct=g);
+}
